@@ -1,0 +1,97 @@
+body {
+    background-image: url(imagem/Fundo.jpeg);
+    background-repeat: repeat;
+}
+
+table, th, td {
+    color: rgb(0, 0, 0,);
+    padding: 13px; 
+    padding: 13px;
+    background-color: antiquewhite;   
+ }
+ h1 {
+    color: yellow;
+    text-align: center; 
+ }
+
+img{display: block; width: 30%; }
+
+.img {
+    display: flex;
+}
+
+p{color: yellow;}
+
+/*Menu*/
+
+:root {
+    --cor-fundo : rgb(5, 5, 5);
+    --cor-hover : rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+  
+  }
+  
+  .dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  
+  }
+  
+  .dp-menu ul {
+    background-color: var(--cor-fundo);
+  }
+  
+  .dp-menu ul li {
+    display: inline;
+    position: relative;
+  
+  }
+  
+  .dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  
+  }
+  
+  .dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+  }
+  
+  .dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .3s;
+  }
+  
+  .dp-menu ul li:hover ul{
+    display: block;
+    opacity: 1;
+  
+  }
+  
+  .dp-menu ul ul{
+    width: 150px;
+  
+  }
+  
+  .dp-menu ul ul li a{
+    display: block;
+  }
+
+  main { 
+        
+    background-color: rgba(12, 8, 3, 0.849);
+    width: 1080px;
+    padding: 8px 50px;
+    margin: auto;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
